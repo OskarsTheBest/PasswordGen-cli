@@ -3,6 +3,8 @@ use clap::{App, Arg};
 // Import the `Rng` trait from the `rand` crate
 use rand::Rng;
 
+use wasm_bindgen::prelude::*;
+
 // Define the entry point for the program
 fn main() {
     // Create a new `App` with the program name, version, author, and description
